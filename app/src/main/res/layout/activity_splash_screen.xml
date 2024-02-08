@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+
+    android:orientation="vertical"
+    android:background="@drawable/pic"
+    tools:context=".SplashScreen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MINI PROJECT"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:textColor="#E54E37"
+        android:layout_marginBottom="100dp"
+
+
+        ></TextView>
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo_psit"
+        android:layout_marginBottom="100dp"
+
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2023-24"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="50dp"
+        android:textColor="@color/white">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="274dp"
+        android:background="@drawable/bg"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anurag Tiwari"
+            android:textColor="#FFEB3B"
+            android:textSize="28dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Akshay Kumar Shukla"
+            android:textColor="#FFEB3B"
+            android:textSize="28dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alok Singh"
+            android:textColor="#FFEB3B"
+            android:textSize="28dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Shreya Srivastava"
+            android:textColor="#FFEB3B"
+            android:textSize="28dp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Akriti Khare"
+            android:textColor="#FFEB3B"
+            android:textSize="28dp"
+            android:textStyle="bold">
+
+        </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>
